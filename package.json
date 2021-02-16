@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "dev:server": "node src/server/index.js",
-    "dev:client": "node src/client/exec.js"
+    "dev:client": "node src/client/index.js"
   },
   "dependencies": {
     "@grpc/proto-loader": "^0.5.6",
