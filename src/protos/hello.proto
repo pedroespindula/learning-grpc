@@ -1,0 +1,11 @@
+syntax = 'proto3';
+
+service HelloService {
+  rpc Hello (Empty) returns (Message) {}
+}
+
+message Empty {}
+
+message Message {
+  string content = 1;
+}
